@@ -1,0 +1,44 @@
+.Card {
+  background-color: rebeccapurple;
+  margin: 10px;
+  height: 175px;
+  width: 120px;
+  border-radius: 8px;
+  flex: 1 0 21%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 425px) {
+  .Card {
+    background-color: rebeccapurple;
+    margin: 3px;
+    height: 100px;
+    width: 200px;
+    border-radius: 8px;
+    flex: 1 0 35%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 426px) and (max-width: 768px) {
+  .Card {
+    background-color: rebeccapurple;
+    margin: 3px;
+    height: 100px;
+    width: 200px;
+    border-radius: 8px;
+    flex: 1 0 21%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.Card.front {
+  background-color: white;
+}

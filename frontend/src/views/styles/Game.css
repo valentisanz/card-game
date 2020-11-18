@@ -1,0 +1,117 @@
+.difficultyTitle {
+  font-size: 70px;
+}
+.board {
+  max-width: 728px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.board .cards {
+  background-color: burlywood;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.Game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Game .play {
+  justify-content: center;
+  align-items: center;
+}
+.Game .play {
+  margin: 8px;
+  width: fit-content;
+  border-radius: 28px;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+}
+
+.Game .easy {
+  box-shadow: 0px 1px 19px 0px #3dc21b;
+  background-color: #44c767;
+  border: 1px solid #18ab29;
+  text-shadow: 0px 1px 16px #2f6627;
+}
+.Game .easy:hover {
+  background-color: #5cbf2a;
+}
+.Game .easy:active {
+  position: relative;
+  top: 1px;
+}
+.Game .normal {
+  box-shadow: 0px 1px 19px 0px #1e1bc2;
+  background-color: #4446c7;
+  border: 1px solid #181aab;
+  text-shadow: 0px 1px 16px #2b2766;
+}
+.Game .normal:hover {
+  background-color: #2a2dbf;
+}
+.Game .normal:active {
+  position: relative;
+  top: 1px;
+}
+
+.Game .difficult {
+  box-shadow: 0px 1px 19px 0px #c21b1b;
+  background-color: #c74444;
+  border: 1px solid #ab1818;
+  text-shadow: 0px 1px 16px #662727;
+}
+.Game .difficult:hover {
+  background-color: #bf2a2a;
+}
+.Game .difficult:active {
+  position: relative;
+  top: 1px;
+}
+.logout {
+  margin: 30px;
+  width: fit-content;
+  background-color: transparent;
+  border-radius: 28px;
+  border: 0px;
+  cursor: pointer;
+  color: red;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 8px 15px;
+  text-decoration: none;
+}
+.Game .logout:hover {
+  box-shadow: 0px 1px 19px 0px #c21b1b;
+  background-color: #c74444;
+  text-shadow: 0px 1px 16px #662727;
+  color: white;
+}
+.Game .results {
+  padding: 0px 32px 0px 32px;
+}
+button.playAgain {
+  background-color: gold;
+  color: white;
+}
+.playAgain:hover {
+  box-shadow: -2px -2px 5px goldenrod, 2px 2px 5px goldenrod;
+}
+.confetti {
+  position: fixed;
+  top: -50vh;
+  font-size: 2rem;
+  transform: translateY(0);
+  animation: fall 3s linear forwards;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(150vh);
+  }
+}

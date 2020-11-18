@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap");
+.title {
+  font-size: 75px;
+  color: #242020;
+}
+.title,h1{
+  font-family: "Righteous", cursive;
+
+}
+p {
+  font-family: "Lato", sans-serif;
+  color: white;
+  font-size: 25px;
+}
+.errorMessage {
+  color: red;
+}
+
+form {
+  padding: 16px;
+  width: 320px;
+  margin: 0 auto;
+}
+
+button,
+input {
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  border-radius: 32px;
+  padding: 16px;
+  background-color: #ebecf0;
+}
+
+label {
+  display: block;
+  margin-bottom: 24px;
+  width: auto;
+}
+
+input {
+  margin-right: 8px;
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  appearance: none;
+  -webkit-appearance: none;
+}
+input:focus {
+  box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+}
+
+button {
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  font-weight: 600;
+}
+button:hover {
+  box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
+}
+button:active {
+  box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+}
+
+button.red {
+  display: block;
+  width: 100%;
+  color: #ae1100;
+}

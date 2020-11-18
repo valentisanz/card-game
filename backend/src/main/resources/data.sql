@@ -1,0 +1,16 @@
+
+DROP TABLE IF EXISTS Game;
+DROP TABLE IF EXISTS User;
+
+CREATE TABLE User (
+    id INT AUTO_INCREMENT  PRIMARY KEY,
+    username VARCHAR(250) NOT NULL
+);
+CREATE TABLE Game (
+    id INT AUTO_INCREMENT  PRIMARY KEY,
+    score INT NOT NULL,
+    difficulty VARCHAR(250) NOT NULL,
+    userId INT,
+    duration VARCHAR(250) ,
+    FOREIGN KEY (userId) REFERENCES User(id)
+);
